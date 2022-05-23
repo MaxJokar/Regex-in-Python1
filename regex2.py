@@ -133,8 +133,8 @@ name:Helen-age:50-avg:90
 # Roth ,20 ,80
 # Helen ,50 ,90
 
-# res="name,age,avg"
-# res+=re.sub(r'name:(\w+)-age:(\d+)-avg:(\d+)','\g<1> ,\g<2> ,\g<3>', str1)
+# res="name,age,avg" #csv  first line is the name of  columns
+# res+=re.sub(r'name:(\w+)-age:(\d+)-avg:(\d+)','\g<1> ,\g<2> ,\g<3>', str1) #+= means add to res
 # with open ('file1.csv','w') as file1:
 #     file1.write(res)
 
